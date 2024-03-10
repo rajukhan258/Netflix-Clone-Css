@@ -1,0 +1,400 @@
+/* ------------------media-queries-for-small-screen--------------- */
+
+
+/* Extra small devices */
+@media only screen and (max-width: 320px) {
+  nav {
+	/* border: 1px solid red; */
+    width: 88%;
+  }
+  .logo {
+    width:85px;
+  }
+  nav button {
+    padding: 6px 14px;
+    margin-left: 5px;
+  }
+  .language-btn {
+    padding: 6px 0px 6px 8px;
+  }
+  .language-btn img {
+    margin: 0 5px 0 1px;
+  }
+  
+.header-content {
+  width: 88%;
+}
+.header-content h1 {
+	/* border: 1px solid red; */
+  font-size: 1.4rem;
+}
+.header-content h3 {
+  font-size: 1.3rem;
+  /* border: 1px solid red; */
+}
+.header-content p {
+  font-size: 1.rem;
+  padding: 0 27px;
+  font-weight: 400;
+  line-height: 30px;
+  /* border: 1px solid red; */
+}
+.email-signup {
+  display: block;
+}
+.email-signup input {
+  width: 80%;
+  padding: 11px 10px;
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.email-signup button {
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 11px 1px 11px 10px;
+  margin-left: 10px;
+}
+
+
+.features {
+  padding: 30px 8%;
+}
+.text-col {
+  flex-basis: 100%;
+  text-align: center;
+}
+.img-col {
+  flex-basis: 100%;
+}
+.row-2, .row-4{
+  flex-direction: column-reverse;
+}
+.features h2 {
+  font-size: 1.9rem;
+}
+.features p {
+  font-size: 1.2rem;
+}
+
+.faq h2 {
+  font-size: 2rem;
+}
+.accordion {
+  width: 89%;
+}
+.accordion li label {
+  text-align: left;
+  padding: 25px;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+label::after {
+  font-size: 1.8rem;
+  bottom: 30%;
+}
+.faq p {
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin-top: 0px;
+}
+.faq-para{
+  padding: 0 50px;
+  line-height: 25px;
+}
+.faq .email-signup input {
+  width: 75%;
+  font-size: 1.1rem;
+  padding: 11px;
+}
+.faq .email-signup button {
+  padding: 12px 12px;
+}
+
+.footer {
+  padding: 50px 7% 10px;
+}
+.footer h2 {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.footer .col {
+  flex-basis: 100%;
+  flex-grow: 1;
+}
+
+}
+
+/* small devices (phones, 600px and down) */
+@media only screen and (max-width: 500px)and (min-width: 320px) {
+  /* .header{
+    height: 100vh;
+  } */
+ nav {
+    width: 88%;
+  }
+ .logo {
+    width:90px;
+  }
+ nav button {
+    padding: 7px 12px;
+    margin-left: 5px;
+  }
+  .language-btn {
+    padding: 5px 5px 6px 7px;
+  }
+  .language-btn img {
+    margin: 0 1px 0 5px;
+  }
+
+ 
+.header-content {
+
+  width: 88%;
+}
+ .header-content h1 {
+  font-size: 2rem;
+}
+/*.header-content h3 {
+  font-size: 1.2rem;
+}
+.header-content p {
+  font-size: 1.19rem;
+  padding: 0 27px;
+  font-weight: 400;
+  line-height: 30px;
+}*/
+.email-signup {
+  display: block;
+}
+.email-signup input {
+  border: 1px solid red;
+  width: 80%;
+  padding: 11px 10px;
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+ .email-signup button {
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 11px 1px 11px 10px;
+  margin-left: 10px;
+}
+
+
+.features {
+  padding: 30px 8%;
+}
+.text-col {
+  flex-basis: 100%;
+  text-align: center;
+}
+.img-col {
+  flex-basis: 100%;
+}
+.row-2, .row-4{
+  flex-direction: column-reverse;
+}
+.features h2 {
+  font-size: 1.9rem;
+}
+.features p {
+  font-size: 1.2rem;
+}
+
+.faq h2 {
+  font-size: 2rem;
+}
+.accordion {
+  width: 89%;
+}
+.accordion li label {
+  text-align: left;
+  padding: 25px;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+label::after {
+  font-size: 1.8rem;
+  bottom: 30%;
+}
+.faq p {
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin-top: 0px;
+}
+.faq-para{
+  padding: 0 50px;
+  line-height: 25px;
+}
+.faq .email-signup input {
+  width: 75%;
+  font-size: 1.1rem;
+  padding: 11px;
+}
+.faq .email-signup button {
+  padding: 12px 12px;
+}
+
+.footer {
+  padding: 50px 7% 10px;
+}
+.footer h2 {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.footer .col {
+  flex-basis: 100%;
+  flex-grow: 1;
+}
+
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 960px)and (min-width: 500px)  {
+ .header {
+    height: 73vh;
+  }
+  
+nav {
+  width: 93%;
+}
+
+.logo {
+  width: 90px;
+}
+
+nav button {
+ margin-left: 5px;
+}
+
+.header-content {
+ width: 92%;
+}
+
+.header-content h1 {
+ font-size: 2rem;
+ font-weight: 700;
+}
+
+.header-content h3 {
+ font-size: 1.2rem;
+}
+
+.header-content p {
+ font-size: 1.2rem;
+}
+.email-signup input {
+ width: 54%;
+}
+
+
+
+
+.features {
+  padding: 30px 3%;
+}
+.r2, .r4 {
+  flex-direction: column-reverse;
+}
+.text-col{
+  flex-basis: 100%;
+  text-align: center;
+}
+.img-col{
+  flex-basis: 100%;
+  }
+  .row-2, .row-4{
+    flex-direction: column-reverse;
+  }
+.img-col .feature-pic{
+  width: 75%;
+}
+.features h2{
+  font-size: 1.9rem;
+}
+.features p{
+  font-size: 1.2rem;
+}
+
+
+
+.faq h2 {
+  font-size: 2rem;
+}
+
+.accordion {
+  width: 92%;
+}
+
+.accordion li {
+  list-style-type: none;
+  width: 100%;
+  padding: 5px;
+}
+
+.accordion li label {
+  padding: 20px 25px;
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+
+label::after {
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+.faq p {
+  font-size: 1.1rem;
+  font-weight: 400;
+  margin: 5px;
+}
+
+.faq .email-signup input {
+  width: 50%;
+}
+
+
+
+.footer {
+  padding: 50px 4% 10px;
+}
+.footer .col {
+  flex-basis: 40%;
+}
+}
+
+@media only screen and (max-width: 1260px)and  (min-width: 960px) {
+  nav {
+    width: 94%;
+  }
+  .features {
+    padding: 50px 3%;
+  }
+  .accordion {
+    width: 96%;
+  }
+  
+  .faq .email-signup input {
+    width: 30%;
+  }
+
+  .footer {
+    padding: 50px 3% 10px;
+  }
+  .footer .row {
+    width: 100%;
+  } 
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+/* @media only screen and (min-width: 768px) {...} */
+/* Large devices (laptops/desktops, 992px and up) */
+/* @media only screen and (min-width: 992px) {...} */
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* @media only screen and (min-width: 1200px) {...} */
